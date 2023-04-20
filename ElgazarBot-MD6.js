@@ -7211,11 +7211,12 @@ case 'غون':
 if (!text) return m.reply(`هلا يحب`)
 break
 
-case 'السلام عليكم':'سلام عليكم':'سلام': 
-if (!text) return m.reply(`وعليكم السلام`)
+case 'سلام': case 'السلام' : case 'السلام عليكم' : 
+if (!text) return
+ m.reply(`وعليكم السلام `)
 break
    
-   case 'ملل':'مللل':'ملللل': 
+   case 'ملل': case 'مللل' : case 'ملللل' : 
 if (!text) return m.reply(`نعرف ف خلينا ساكتين`)
 break                                          
 
