@@ -1326,9 +1326,9 @@ break
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-let teks = `══✪〘˙·٠${themeemoji}● منشن للكل ●${themeemoji}٠·˙〙✪══
+let teks = `══✪〘˙·٠${themeemoji}● منشن للغلابه ●${themeemoji}٠·˙〙✪══
  
- 🌿 *الرساله : ${q ? q : 'مفيش رساله'}*\n\n`
+ 🌿 *الرساله : ${q ? q : 'توماس عمكم'}*\n\n`
                 for (let mem of participants) {
                 teks += `${themeemoji} @${mem.id.split('@')[0]}\n`
                 }
@@ -1698,7 +1698,7 @@ await ElgazarBot.sendMessage(i, { video:media,  caption: txt, mentions:participa
              case 'الصاحيين': case 'المتصلين': {
                     let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
                     let online = [...Object.keys(store.presences[id]), botNumber]
-                    ElgazarBot.sendText(m.chat, '𓆩  *قفشتكم يا ورعان👾*  𓆪:\n\n' + online.map(v => '◐ @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
+                    ElgazarBot.sendText(m.chat, '𓆩  *اهوو جبتهم لك😂*  𓆪:\n\n' + online.map(v => '◐ @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
              }
              break
 case 'sticker': case 's': case 'ملصق': case 'ستيكر': {
@@ -7211,8 +7211,8 @@ case 'غون':
 if (!text) return m.reply(`هلا يحب`)
 break
 
-case 'السلام عليكم': case 'سلام عليكم' : case 'سلام' : 
-if (!text) return m.reply(`وعليكم السلام`)
+case 'السلام عليكم': case 'سلام عليكم' : case 'سلام' : case 'السلام عليكم ورحمة الله وبركاته' : 
+if (!text) return m.reply(`وعليكم السلام ورحمة الله وبركاته`)
 break
    
    case 'ملل': case 'مللل' :case 'ملللل': 
@@ -7227,9 +7227,39 @@ case 'نعم':
 if (!text) return m.reply(`نعامة ترفسك👻😂`)
 break
 
-case 'سكربت': case 'script' :
+case 'سكربت' : case 'sc' : 
 if (!text) return
- m.reply(`روح نام بس🗿`)
+ m.reply(`بس روح نام😂`)
+break
+
+case 'هاي': case 'هايي' : case 'هلو' : case 'هلوو' : case 'هيلو' : 
+if (!text) return
+ m.reply(`استرجل وقول السلام عليكم يوااد😒`)
+break
+
+case 'تبن بلدي': 
+if (!text) return
+ m.reply(`تبن بلدك ولا تبن جاموس😂`)
+break
+
+case 'حسين': 
+if (!text) return
+ m.reply(`احلى من قال اسمي♥`)
+break
+
+case 'اسكت': 
+if (!text) return
+ m.reply(`اسكت انت ياهطف`)
+break
+
+case 'كلزق': case: 'كلخرا' : case 'كل زق' : 
+if (!text) return
+ m.reply(`ما باكلك😮‍💨`)
+break
+
+case 'اتفق': 
+if (!text) return
+ m.reply(`اطلق😎`)
 break
 
 case 'quotes':
