@@ -15,23 +15,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['201146121794'] //ur owner number
-global.ownername = "العم طوماس☃️" //ur owner name
-global.ytname = "YT: ELZA3EM" //ur yt chanel name
-global.socialm = "GitHub: ELZA3EM" //ur github or insta name
-global.location = "Africa, Egypt, Cairo" //ur location
+global.owner = ['201129491146'] //ur owner number
+global.ownername = "𝘿 َِ𝘼 َِ𝙍 َِ𝙆 ِ۬𝙓 𖤐 ↯" //ur owner name
+global.ytname = "" //ur yt chanel name
+global.socialm = "INSTA: @r8_2z" //ur github or insta name
+global.location = "Africa, Egypt, Minya" //ur location
 
 //bot bomdy 
-global.ownernomer = "201146121794" //ur number
-global.premium = ['201146121794'] //ur premium number
-global.botname = '☃️𝑬𝑳𝒁𝑨3𝑬𝑴 𝑮𝑶𝑵☃️' //ur bot name
-global.linkz = "https://youtube.com/@MR_ThomasFF" //your theme url which will be displayed on whatsapp
-global.websitex = "https://telegra.ph/file/25ac27774c8a0420e2649.jpg" //ur website to be displayed
-global.botscript = 'https://youtube.com/@MR_ThomasFF' //script link
+global.ownernomer = "201129491146" //ur number
+global.premium = ['201129491146'] //ur premium number
+global.botname = '𝘿 َِ𝘼 َِ𝙍 َِ𝙆 ِ۬𝙓 َ𝘽 َ𝙊 َْ𝙏 𖤐 ↯' //ur bot name
+global.linkz = "" //your theme url which will be displayed on whatsapp
+global.websitex = "https://telegra.ph/file/3b5dd8eaefa86bde71429.jpg" //ur website to be displayed
+global.botscript = '' //script link
 global.themeemoji = "♥" //ur theme emoji
-global.packname = "⍣حقوق البوت غون⍣" //ur sticker watermark packname
-global.author = "⍣لا للسرقه! 🔪👻⍣" //ur sticker watermark author
-global.wm = "☃️𝑬𝑳𝒁𝑨3𝑬𝑴 𝑮𝑶𝑵☃️." //ur watermark
+global.packname = "𝘿 َِ𝘼 َِ𝙍 َِ𝙆 ِ۬𝙓 َ𝘽 َ𝙊 َْ𝙏 𖤐 ↯" //ur sticker watermark packname
+global.author = "+201557241739" //ur sticker watermark author
+global.wm = "𝘿 َِ𝘼 َِ𝙍 َِ𝙆 ِ۬𝙓 َ𝘽 َ𝙊 َْ𝙏 𖤐 ↯." //ur watermark
 
 // Other
 global.sessionName = 'session'
@@ -40,7 +40,7 @@ global.sp = ''
 
 //messages
 global.mess = {
-    success: 'تم يروحي✨',
+    success: 'تم ✨',
     admin: '『 الامر دا لادمن بس! 』',
     botAdmin: '『 ارفع البوت ادمن الاول 』',
     premime: '『 ميزات خاصة متميزة إذا كنت ترغب في تسجيل نوع الإيجار 』',
